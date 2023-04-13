@@ -40,7 +40,7 @@ print("El componente con la calidad más alta es", array_componente_1[punt_max_1
 
 #calculamos el promedio
 puntaje_1 = array_componente_1[:,3].astype(int)
-prom_1 = round(np.average(puntaje_1), 2)
+prom_1 = round(np.mean(puntaje_1), 2)
 print("El promedio es:", prom_1)
 
 """
@@ -63,7 +63,7 @@ print("El componente con la calidad más alta es", array_componente_2[punt_max_2
 
 #calculamos el promedio
 puntaje_2 = array_componente_2[:,3].astype(int)
-prom_2 = round(np.average(puntaje_2), 2)
+prom_2 = round(np.mean(puntaje_2), 2)
 print("El promedio es:", prom_2)
 
 print("\n----- CANTIDAD PRODUCIDA POR MES -----")

@@ -40,10 +40,10 @@ print(peliculas_comedia)
 print('')
 
 #calculamos el promedio redondeado a 2 digitos (hay que convertir a un float la columna)
-duracion_promedio_com = round(np.average(peliculas_comedia[:, 2].astype(float)), 2)
+duracion_promedio_com = round(np.mean(peliculas_comedia[:, 2].astype(float)), 2)
 print("La duracion promedio de las peliculas de COMEDIA es:", duracion_promedio_com)
 
-puntaje_promedio_com = round(np.average(peliculas_comedia[:, 4].astype(float)), 2)
+puntaje_promedio_com = round(np.mean(peliculas_comedia[:, 4].astype(float)), 2)
 print("El puntaje promedio de las peliculas de COMEDIA es:", puntaje_promedio_com)
 
 print("----- INFO DE PELICULAS DE ACCION -----")
@@ -51,10 +51,10 @@ print(peliculas_accion)
 print('')
 
 #calculamos el promedio redondeado a 2 digitos (hay que convertir a un float la columna)
-duracion_promedio_acc = round(np.average(peliculas_accion[:, 2].astype(float)), 2)
+duracion_promedio_acc = round(np.mean(peliculas_accion[:, 2].astype(float)), 2)
 print("La duracion promedio de las peliculas de ACCION es:", duracion_promedio_acc)
 
-puntaje_promedio_acc = round(np.average(peliculas_accion[:, 4].astype(float)), 2)
+puntaje_promedio_acc = round(np.mean(peliculas_accion[:, 4].astype(float)), 2)
 print("El puntaje promedio de las peliculas de COMEDIA es:", puntaje_promedio_acc)
 
 print("----- INFO DE PELICULAS DE DRAMA -----")
@@ -62,10 +62,10 @@ print(peliculas_drama)
 print('')
 
 #calculamos el promedio redondeado a 2 digitos (hay que convertir a un float la columna)
-duracion_promedio_dra = round(np.average(peliculas_drama[:, 2].astype(float)), 2)
+duracion_promedio_dra = round(np.mean(peliculas_drama[:, 2].astype(float)), 2)
 print("La duracion promedio de las peliculas de DRAMA es:", duracion_promedio_dra)
 
-puntaje_promedio_dra = round(np.average(peliculas_drama[:, 4].astype(float)), 2)
+puntaje_promedio_dra = round(np.mean(peliculas_drama[:, 4].astype(float)), 2)
 print("El puntaje promedio de las peliculas de COMEDIA es:", puntaje_promedio_dra)
 
 #creamos el array puntaje maximo

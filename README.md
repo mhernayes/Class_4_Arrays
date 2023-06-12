@@ -1,5 +1,4 @@
 # Class_4_Arrays
-
 The purpose of this repository is to provide a collection of exercises that focus on NumPy arrays. 
 The exercises are designed to help developers improve their skills in this area and will cover a variety of topics related to NumPy arrays.
 Each exercise includes a description of the problem to be solved and a set of requirements that must be met in order to successfully complete the exercise.
